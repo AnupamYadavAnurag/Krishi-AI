@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+# 🌾 Krishi AI — AI-Powered Agriculture Assistant
 
-## Project info
+**Krishi AI** is an intelligent, multilingual web application that empowers farmers with AI-based **crop recommendations**, **data-driven insights**, and **usage analytics dashboards** — all within a clean and modern interface.
 
-**URL**: https://lovable.dev/projects/817e7297-3d92-4d20-9586-1a72b22c1a1d
+> 🌍 Live at: **[Jharkhand Krishi Gyan](https://jharkhand-krishi-gyan.vercel.app/)**
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧩 **Tech Stack**
 
-**Use Lovable**
+### 🔹 Frontend
+- **Vite + TypeScript**
+- **TailwindCSS** (with dark/light mode)
+- **Chart.js** for analytics visualization
+- **Responsive UI** with transitions and animations
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/817e7297-3d92-4d20-9586-1a72b22c1a1d) and start prompting.
+### 🔹 Backend
+- **Flask (Python)** REST API
+- **Machine Learning model (crop_model.pkl)** for crop recommendation
+- **SQLite + SQLAlchemy** for user and analytics data
+- **Flask-Login** for authentication
+- **Flask-CORS** for frontend-backend connection
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🎯 **Features**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Feature | Description |
+|----------|--------------|
+| 🌾 **Smart Crop Recommendation** | Suggests best crop based on soil nutrients, temperature, humidity, and rainfall. |
+| 📊 **Interactive Dashboard** | Shows data analytics and API usage stats with **Chart.js** visualizations. |
+| 🔐 **User Authentication** | Secure login & registration using Flask-Login. |
+| 🧠 **Validated Inputs & Error Handling** | Ensures all data is accurate before prediction. |
+| 💾 **Usage Logging** | Stores every request in the database for trend analysis. |
+| 📈 **Health Monitoring** | `/health` endpoint checks system & model status. |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🖼️ **Project Preview**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🌄 Home Page
+![Home Screenshot](https://github.com/prakharagrawal/jharkhand-krishi-gyan/assets/home.png)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📊 Dashboard
+![Dashboard Screenshot](https://github.com/prakharagrawal/jharkhand-krishi-gyan/assets/dashboard.png)
 
-# Step 3: Install the necessary dependencies.
-npm i
+*(You can replace these image links with real screenshots from your repo once uploaded.)*
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## ⚙️ **Setup & Installation**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🧱 Prerequisites
+Ensure you have installed:
+- **Python 3.9+**
+- **Node.js 18+**
+- **npm / yarn**
+- **Git**
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 🔧 Backend Setup (Flask)
+bash
+# Clone repo
+git clone https://github.com/prakharagrawal/jharkhand-krishi-gyan.git
+cd jharkhand-krishi-gyan
 
-## What technologies are used for this project?
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
 
-This project is built with:
+# Install dependencies
+pip install flask flask_sqlalchemy flask_login flask_cors werkzeug requests
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/817e7297-3d92-4d20-9586-1a72b22c1a1d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# Run the app
+python app.py
