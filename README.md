@@ -44,8 +44,12 @@
 ### 📊 Dashboard
 <img width="1038" height="921" alt="Screenshot 2025-11-08 152559" src="https://github.com/user-attachments/assets/c34f3b69-64e3-4022-a620-026327e0244c" />
 
+<img width="1770" height="918" alt="Screenshot 2025-11-08 152903" src="https://github.com/user-attachme
 
-*(You can replace these image links with real screenshots from your repo once uploaded.)*
+<img width="1786" height="926" alt="Screenshot 2025-11-08 153215" src="https://github.com/user-attachments/assets/80f5ff7b-b04c-4098-b165-b814d5f88dae" />
+nts/assets/c99735c6-e245-4ab3-95f4-5366721a6a48" />
+
+
 
 ---
 
