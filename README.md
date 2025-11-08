@@ -10,8 +10,7 @@
 
 ### 🔹 Frontend
 - **Vite + TypeScript**
-- **TailwindCSS** (with dark/light mode)<img width="1485" height="786" alt="Screenshot 2025-11-08 025442" src="https://github.com/user-attachments/assets/42a81b7c-29b0-4a66-a76a-1ae26d898f9a" />
-
+- **TailwindCSS** (with dark/light mode)
 - **Chart.js** for analytics visualization
 - **Responsive UI** with transitions and animations
 
@@ -40,10 +39,11 @@
 ## 🖼️ **Project Preview**
 
 ### 🌄 Home Page
-![Home Screenshot](https://github.com/prakharagrawal/jharkhand-krishi-gyan/assets/home.png)
+<img width="1485" height="786" alt="Screenshot 2025-11-08 025442" src="https://github.com/user-attachments/assets/42a81b7c-29b0-4a66-a76a-1ae26d898f9a" />
 
 ### 📊 Dashboard
-![Dashboard Screenshot](https://github.com/prakharagrawal/jharkhand-krishi-gyan/assets/dashboard.png)
+<img width="1038" height="921" alt="Screenshot 2025-11-08 152559" src="https://github.com/user-attachments/assets/c34f3b69-64e3-4022-a620-026327e0244c" />
+
 
 *(You can replace these image links with real screenshots from your repo once uploaded.)*
 
