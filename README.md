@@ -2,7 +2,8 @@
 
 **Krishi AI** is an intelligent, multilingual web application that empowers farmers with AI-based **crop recommendations**, **data-driven insights**, and **usage analytics dashboards** — all within a clean and modern interface.
 
-> 🌍 Live at: **[Jharkhand Krishi Gyan](https://jharkhand-krishi-gyan.vercel.app/)**
+><!--  🌍 Live at: **[Jharkhand Krishi Gyan](https://jharkhand-krishi-gyan.vercel.app/)** -->
+
 
 ---
 
